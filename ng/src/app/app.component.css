@@ -1,0 +1,77 @@
+.name-title {
+  width: 40vw;
+  margin-left:30vw;
+}
+
+.navbar-item {
+  width: 12vw;
+  outline: 0;
+}
+
+.navbar{
+  margin-left:20vw;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+
+.navbar .home:hover {
+  cursor: crosshair;
+    background-image: url("../assets/img/yellow.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top:-5em;
+}
+.navbar .resume:hover {
+  cursor: crosshair;
+    background-image: url("../assets/img/red.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar .portfolio:hover {
+  cursor: crosshair;
+    background-image: url("../assets/img/purple.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar .about:hover {
+  cursor: crosshair;
+    background-image: url("../assets/img/blue.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar .contact:hover {
+  cursor: crosshair;
+    background-image: url("../assets/img/green.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar-item:active {
+  background-image: url("../assets/img/circle.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
